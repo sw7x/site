@@ -120,7 +120,7 @@
     // Bind to scroll
     $(window).scroll(function () {
 
-        //Display or hide scroll to top button 
+        //Display or hide scroll to top button
         if ($(this).scrollTop() > 100) {
             $('.scrollup').fadeIn();
         } else {
@@ -347,8 +347,8 @@ $("#send-mail").click(function () {
     /************************
     Animate elements
     *************************/
-    
-    //Animate thumbnails 
+
+    //Animate thumbnails
     jQuery('.thumbnail').one('inview', function (event, visible) {
         if (visible == true) {
             jQuery(this).addClass("animated fadeInDown");
@@ -370,8 +370,12 @@ $("#send-mail").click(function () {
      jQuery('.triangle1').bind('inview', function (event, visible) {
          if (visible == true) {
              jQuery(this).addClass("animated fadeInDown");
+             jQuery(this).removeClass("z0");
+             jQuery(this).addClass("z1");
          } else {
              jQuery(this).removeClass("animated fadeInDown");
+             jQuery(this).removeClass("z1");
+             jQuery(this).addClass("z0");
          }
      });
      //Animate triangles
@@ -400,7 +404,7 @@ $("#send-mail").click(function () {
             jQuery('#first-person').removeClass("animated pulse");
         }
     });
-    
+
     //animate sectond team member
     jQuery('#second-person').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -418,7 +422,7 @@ $("#send-mail").click(function () {
             jQuery('#third-person').removeClass("animated pulse");
         }
     });
-    
+
     //Animate price columns
     jQuery('.price-column, .testimonial').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -427,7 +431,20 @@ $("#send-mail").click(function () {
             jQuery(this).removeClass("animated fadeInDown");
         }
     });
-    
+
+     //Animate blog columns
+     jQuery('.timeline-image, .timeline-panel, .testimonial').bind('inview', function (event, visible) {
+         if (visible == true) {
+             jQuery(this).addClass("animated fadeInDown");
+         } else {
+             jQuery(this).removeClass("animated fadeInDown");
+         }
+     });
+
+
+
+
+
     //Animate contact form
     jQuery('.contact-form').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -485,3 +502,11 @@ function initializeMap() {
 
     infowindow.open(map, marker);
 }
+
+
+//
+//$('document').ready(function()
+//{
+//    $( ".map-canvas" ).prepend( '<p>---------------Test-----------</p>' );
+//
+//});

@@ -16,7 +16,7 @@
         <!-- Load css styles -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
         <link rel="stylesheet" type="text/css" href="css/pluton.css" />
         <!--[if IE 7]>
             <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
@@ -24,6 +24,16 @@
         <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
         <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+
+        <link rel="stylesheet" href="css/preloader.css">
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <style type="text/css">
+
+        </style>
+
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
         <!-- Fav and touch icons -->
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
@@ -33,6 +43,15 @@
     </head>
     
     <body>
+
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+
         <div style="background-color: cornflowerblue">phone/social links </div>
 
         <div class="navbar">
@@ -166,6 +185,7 @@
         <!-- Service section end -->
         <!-- Portfolio section start -->
         <div class="section secondary-section " id="portfolio">
+            <!--<div class="qqqqq" style="">-->
             <div class="triangle"></div>
             <div class="container">
                 <div class=" title">
@@ -542,6 +562,7 @@
                     </ul>
                 </div>
             </div>
+        <!--</div>-->
         </div>
         <!-- Portfolio section end -->
         <!-- About us section start -->
@@ -731,10 +752,11 @@
                         "Perfection is Achieved Not When There Is Nothing More to Add, But When There Is Nothing Left to Take Away"
                     </p>
                 </div>
-                <div class="triangle"></div>
+
             </div>
         </div>
         <div class="section third-section">
+            <div class="triangle"></div>
             <div class="container centered">
                 <div class="sub-section">
                     <div class="title clearfix">
@@ -784,7 +806,8 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div><div class="triangle3"></div>
+
         </div>
         <!-- Price section start -->
         <div id="price" class="section secondary-section">
@@ -867,10 +890,93 @@
 
 
 
+    <!-- Blog section start -->
+    <div id="blog" class="section secondary-section">
+        <div class="container">
+            <div class="title">
+                <h1>Blog</h1>
+                <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+            </div>
+
+            <div class="blog-list row">
+                <div class="col-md-12">
+                    <ul class="timeline">
+                        <li  >
+                            <div class="timeline-image">
+                                <a href="http://pluton.themeart.co/markup-and-formatting/" title="Markup And Formatting">
+                                    <img width="200" height="200" src="http://pluton.themeart.co/wp-content/uploads/2013/03/cabin-200x200.png" class="img-circle wp-post-image" alt="cabin" />									</a>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <span>January 11, 2013</span>
+                                    <h3 class="subheading"><a href="http://pluton.themeart.co/markup-and-formatting/" title="Markup And Formatting">Markup And Formatting</a></h3>
+                                </div>
+                                <div class="timeline-body">
+                                    Headings Header one Header two Header three Header four Header five Header six Blockquotes Single line blockquote: Stay hungry. Stay foolish. Multi line blockquote with a cite reference: People think&hellip;								</div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted" >
+                            <div class="timeline-image">
+                                <a href="http://pluton.themeart.co/image-alignment/" title="Image Alignment">
+                                    <img width="200" height="200" src="http://pluton.themeart.co/wp-content/uploads/2013/01/cake-200x200.png" class="img-circle wp-post-image" alt="cake" />									</a>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <span>January 10, 2013</span>
+                                    <h3 class="subheading"><a href="http://pluton.themeart.co/image-alignment/" title="Image Alignment">Image Alignment</a></h3>
+                                </div>
+                                <div class="timeline-body">
+                                    Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab&hellip;								</div>
+                            </div>
+                        </li>
+                        <li  >
+                            <div class="timeline-image">
+                                <a href="http://pluton.themeart.co/text-alignment/" title="Text Alignment">
+                                    <img width="200" height="200" src="http://pluton.themeart.co/wp-content/uploads/2013/01/circus-200x200.png" class="img-circle wp-post-image" alt="circus" />									</a>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <span>January 9, 2013</span>
+                                    <h3 class="subheading"><a href="http://pluton.themeart.co/text-alignment/" title="Text Alignment">Text Alignment</a></h3>
+                                </div>
+                                <div class="timeline-body">
+                                    Default This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free&hellip;								</div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted" >
+                            <div class="timeline-image">
+                                <a href="http://pluton.themeart.co/sticky/" title="Sticky">
+                                    <img width="200" height="200" src="http://pluton.themeart.co/wp-content/uploads/2013/01/game-200x200.png" class="img-circle wp-post-image" alt="game" />									</a>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <span>January 7, 2013</span>
+                                    <h3 class="subheading"><a href="http://pluton.themeart.co/sticky/" title="Sticky">Sticky</a></h3>
+                                </div>
+                                <div class="timeline-body">
+                                    This is a sticky post. There are a few things to verify: The sticky post should be distinctly recognizable in some way in comparison to normal posts. You can style the .sticky&hellip;								</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="centered"><a href="http://pluton.themeart.co/blogpage/" class="button">More Posts</a></p>
+        </div>
+    </div>
 
 
 
-        <!-- Contact section start -->
+
+
+
+
+
+
+
+
+
+    <!-- Contact section start -->
         <div id="contact" class="contact">
             <div class="section secondary-section">
                 <div class="container">
@@ -880,7 +986,9 @@
                     </div>
                 </div>
                 <div class="map-wrapper">
+                    <div class="triangle1"></div>
                     <div class="map-canvas" id="map-canvas">Loading map...</div>
+
                     <div class="container">
                         <div class="row-fluid">
                             <div class="span5 contact-form centered">
@@ -1002,5 +1110,6 @@
             <script src="js/respond.min.js"></script>
         <![endif]-->
         <script type="text/javascript" src="js/app.js"></script>
+        <script src="js/preloader.js"></script>
     </body>
 </html>

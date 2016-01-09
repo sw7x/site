@@ -1,3 +1,4 @@
+
 /*
  * A Design by GraphBerry
  * Author: GraphBerry
@@ -6,6 +7,7 @@
  */
 
 /* Table of content
+0.Pre loader
 1.General - This is created general styles and overide some bootstrap classes.
 2.Layout
  2.1 Animations
@@ -19,10 +21,47 @@
  3.4 Clients
  3.5 Price table
  3.6 Newsletter
- 3.7 Contact
- 3.8 Footer
+ 3.7 blog
+ 3.8 Contact
+ 3.9 Footer
 4 Responsive 
 **********************************************************************/
+
+/*
+0. Pre loader
+**********************************************************************/
+.back-link a {
+    color: #4ca340;
+    text-decoration: none;
+    border-bottom: 1px #4ca340 solid;
+}
+.back-link a:hover,
+.back-link a:focus {
+    color: #408536;
+    text-decoration: none;
+    border-bottom: 1px #408536 solid;
+}
+h1 {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    margin-bottom: 3px;
+}
+.entry-header {
+    text-align: left;
+    margin: 0 auto 50px auto;
+    width: 80%;
+    max-width: 978px;
+    position: relative;
+    z-index: 10001;
+}
+#demo-content {
+    padding-top: 100px;
+}
+
 
 /*
 1. General
@@ -117,6 +156,9 @@ p {
     background:#FECE1A;
     color: #000;
 }
+
+.z1{z-index: 1;}
+.z0{z-index: 0;}
 /******
 2. Layout
 **********************************************************************/
@@ -176,7 +218,7 @@ p {
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 50px solid #181A1C;
+    border-top: 50px solid #1B2B82;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -407,7 +449,7 @@ p {
 .third-section {
     padding-bottom: 0px;
     background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #FECE1A;
+    border-top:0px solid #FECE1A;
 }
 .third-section .container {
     padding:20px;
@@ -443,6 +485,15 @@ p {
 /*
 3.2 Portfolio
 ***************************************/
+#portfolio{background: url("../images/1.jpg");padding-bottom: 0px;}
+
+
+#portfolio:before{background: #24C6DC; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.9;
+}
+
  .single-project {
     margin-bottom:30px;
     background:#181A1C;
@@ -704,8 +755,149 @@ p {
     color:#181A1C;
 }
 
+
+/*--------------------------------------------------------------
+3.7 Blog
+--------------------------------------------------------------*/
+#blog a:hover {
+    color: #fff;
+}
+
+.blog-list {
+    margin-bottom: 30px;
+}
+
+.blog-list ul {
+    margin-left: 0;
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 47px;
+    width: 2px;
+    margin-left: -10px;
+    background-color: #f1f1f1;
+}
+
+.timeline a:hover {
+    color: #fff
+}
+
+.timeline>li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 50px;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li .timeline-panel {
+    float: right;
+    position: relative;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.timeline>li .timeline-image h3 {
+    margin-top: 12px;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: left;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h3 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline .timeline-heading h3.subheading {
+    text-transform: none;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.timeline .timeline-heading span {
+    color: #181a1c;
+}
+
+.timeline .timeline-body>p,
+.timeline .timeline-body>ul {
+    margin-bottom: 0;
+}
+
+
+
+
+
 /*
-3.7 Contact
+3.8 Contact
 ********************************************************************/
  .contact {
     background: #FECE1A;
@@ -813,7 +1005,7 @@ p {
     color:#181A1C;
 }
 /*
-3.8 Footer
+3.9 Footer
 ********************************************************************/
  .footer {
     background: #181A1C;
@@ -922,4 +1114,126 @@ p {
     .price-column, .testimonial {
         margin-top:30px;
     }
+}
+
+@media only screen and (min-width : 768px) {
+    .timeline:before {
+        left: 50%;
+    }
+
+    .timeline>li {
+        margin-bottom: 100px;
+        min-height: 100px;
+    }
+
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 40%;
+        padding: 0;
+        text-align: right;
+    }
+
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -55px;
+    }
+
+    .timeline>li .timeline-image h3 {
+        margin-top: 16px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0;
+        text-align: left;
+    }
+
+    .post-inner-content {
+        padding: 15px 30px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 10px 0;
+    }
+
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -83px;
+    }
+
+    .timeline>li .timeline-image h3 {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 10px 0;
+    }
+
+    .newsletter button {
+        margin: 0 0 0 20px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .thumbnail .more {
+        margin-left: -40px;
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        line-height: 80px;
+    }
+
+    .timeline>li {
+        min-height: 170px;
+    }
+
+    .timeline>li .timeline-panel {
+        padding: 10px 20px 10px 0;
+    }
+
+    .timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -93px;
+    }
+
+    .timeline>li .timeline-image h3 {
+        margin-top: 40px;
+    }
+
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 10px 0 10px 0;
+    }
+}
+
+
+
+
+
+
+
+.third-section .triangle{
+
+    -webkit-animation-fill-mode: none;
+    -moz-animation-fill-mode: none;
+    -ms-animation-fill-mode: none;
+    -o-animation-fill-mode: none;
+    animation-fill-mode: none;
+
+
 }
