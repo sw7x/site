@@ -487,7 +487,19 @@ $("#send-mail").click(function () {
         }
     });
 
-    //Animate skill bars
+     //Animate contact form
+     jQuery('ul#clint-slider li').bind('inview', function (event, visible) {
+         if (visible == true) {
+             jQuery('ul#clint-slider li').addClass("animated bounceIn");
+         } else {
+             jQuery('ul#clint-slider li').removeClass("animated bounceIn");
+         }
+     });
+
+
+
+
+     //Animate skill bars
     jQuery('.skills > li > span').one('inview', function (event, visible) {
         if (visible == true) {
             jQuery(this).each(function () {
@@ -533,7 +545,7 @@ function initializeMap() {
 
     var contentString =     "<div>" +
                                 "<span style='font-size:20px;font-weight:bold;'>webdesignerssrilanka.lk</span><br><br>" +
-                                "<div style='padding:5px;background: #1B2B81'>" +
+                                "<div style='padding:5px;background: rgb(6, 59, 128);'>" +
                                     "<img src='" + "images/logo.png" +
                                     "'>" +
                                 "</div><br>" +
