@@ -1,11 +1,30 @@
 'use strict';
 
+/*scroller*/
+var nice = false;
+
+$(document).ready(function() {
+    nice = $("html").niceScroll();
+});
+
+var obj = window;
+
+console.log(obj.length);
+console.log("selector" in obj);
+
+
+
+
+
 /*
  * A Design by GraphBerry
  * Author: GraphBerry
  * Author URL: http://graphberry.com
  * License: http://graphberry.com/pages/license
  */
+
+
+
  jQuery(document).ready(function ($) {
 
     var lastId,
@@ -441,8 +460,22 @@ $("#send-mail").click(function () {
          }
      });
 
+     //animate services section
+     jQuery('.serviceDiv').bind('inview', function (event, visible) {
+         if (visible == true) {
+             jQuery(this).addClass("animated fadeInDown");
+         } else {
+             jQuery(this).removeClass("animated fadeInDown");
+         }
+     });
 
-
+     jQuery('#first-place,#second-place').bind('inview', function (event, visible) {
+         if (visible == true) {
+             jQuery(this).addClass("animated fadeInDown");
+         } else {
+             jQuery(this).removeClass("animated fadeInDown");
+         }
+     });
 
 
     //Animate contact form
@@ -470,39 +503,63 @@ $("#send-mail").click(function () {
 
 function initializeMap() {
 
-    var lat = '44.8164056'; //Set your latitude.
-    var lon = '20.46090424'; //Set your longitude.
+    var lat = '6.8927193'; //Set your latitude.
+    var lon = '79.8636426'; //Set your longitude.
 
     var centerLon = lon - 0.0105;
 
     var myOptions = {
         scrollwheel: false,
-        draggable: false,
+        draggable: true,
         disableDefaultUI: true,
         center: new google.maps.LatLng(lat, centerLon),
-        zoom: 15,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        zoom: 17,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+
     };
 
     //Bind map to elemet with id map-canvas
     var map = new google.maps.Map(document.getElementById('map-canvas'), myOptions);
     var marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(lat, lon),
+        position:new google.maps.LatLng(6.8927193,79.8536914),
+        icon: 	{
+            url: 'images/marker.png',
+            scaledSize: new google.maps.Size(60, 60)
+        }
 
     });
 
+
+    var contentString =     "<div>" +
+                                "<span style='font-size:20px;font-weight:bold;'>webdesignerssrilanka.lk</span><br><br>" +
+                                "<div style='padding:5px;background: #1B2B81'>" +
+                                    "<img src='" + "images/logo.png" +
+                                    "'>" +
+                                "</div><br>" +
+                                "<div style=''>" +
+                                    "Web Designers Sri Lanka is a locally based web <br>" +
+                                    "design and development company. We specialize <br>" +
+                                    "in creating websites that build company profiles, <br>" +
+                                    "utilizing a range of online marketing strategies <br>" +
+                                    "and web technologies ." +
+                                "</div>" +
+                            "</div>";
+
+
+
+
     var infowindow = new google.maps.InfoWindow({
-        content: "Your content goes here!"
+        content: contentString
     });
 
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
     });
 
-    infowindow.open(map, marker);
+    //infowindow.open(map, marker);
 }
-
+//google.maps.event.addDomListener(window, 'load', initialize);
 
 //
 //$('document').ready(function()
