@@ -1,11 +1,4 @@
 
-/*
- * A Design by GraphBerry
- * Author: GraphBerry
- * Author URL: http://graphberry.com
- * License: http://graphberry.com/pages/license
- */
-
 /* Table of content
 0.Pre loader
 1.General - This is created general styles and overide some bootstrap classes.
@@ -235,7 +228,7 @@ p {
     text-align:center;
     width: 0;
     height: 0;
-    border-top: 50px solid #063B80;
+    border-top: 50px solid #0378AA;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -433,13 +426,16 @@ p {
 }
 
 .primary-section .triangle2,.triangle2{
-    border-top: 50px solid #063B80;
+    border-top: 50px solid #0378AA;
 }
 
 .triangle3{
     border-bottom: 50px solid rgb(6, 59, 128);
 }
 
+.triangle4{
+    border-bottom: 50px solid rgb(6, 59, 128);
+}
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
@@ -450,7 +446,7 @@ p {
     color:#fff;
 }
 .secondary-section {
-    background: rgb(6, 59, 128);
+    //background: rgb(3, 120, 170);
 }
 .secondary-section .title {
     border-bottom: 0px solid #fff;
@@ -713,6 +709,8 @@ p {
  .price-table {
     margin-top: 70px;
     margin-bottom: 20px;
+     //padding-left: 20px;
+    // padding-right: 20px;
 }
 .price-column {
     background-color:white;
@@ -935,12 +933,12 @@ p {
 3.8 Contact
 ********************************************************************/
  .contact {
-    background: #FECE1A;
+     background: #0378AA;
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
     color: #181A1C;
 }
-.contact textarea, .contact input[type="text"], .contact input[type="email"] {
+.contact textarea, .contact input[type="text"], .contact input[type="email"], .contact input[type="tel"] {
     padding: 10px;
     line-height: 20px;
     height: auto;
@@ -1665,7 +1663,7 @@ ul.top-soc-small li a.soc-skype:hover{color:#fff;background-color: #00AFF0;}
         display: block;
         width: 100%;
         margin-bottom: 40px;
-        text-align: center;
+      //text-align: center;
     }
 
     .footer-distributed .footer-center i{
@@ -1680,7 +1678,7 @@ ul.top-soc-small li a.soc-skype:hover{color:#fff;background-color: #00AFF0;}
 .da-slide h2, .da-slide h4 {color: #063B80;}
 .da-slide p{color:#0378AA;}
 
-
+#price{background-color: rgb(6, 59, 128)}
 .price-table .price-column:nth-child(1){background-color: rgb(247, 58, 58)}
 .price-table .price-column:nth-child(2){background-color:#F9D13B }
 .price-table .price-column:nth-child(3){background-color:#4BF94B }
@@ -1691,3 +1689,68 @@ ul.top-soc-small li a.soc-skype:hover{color:#fff;background-color: #00AFF0;}
 .price-table .price-column:nth-child(2) h3{background-color:#F9D13B }
 .price-table .price-column:nth-child(3) h3{background-color:#4BF94B }
 .price-table .price-column:nth-child(4) h3{background-color: #42C0F3}
+
+
+.tp-small{color:#fff;text-decoration: none;}
+.tp-small:hover{color:#fff;text-decoration: none;}
+
+@media (max-width: 1200px)
+{
+
+#topbar .container{width:100%}
+    #topbar .container .span5{float:left; width: 50%;}
+    #topbar .container .span7{float:right; width: 50%;}
+    #topbar .container .span7 ul{margin-left: 0px;}
+}
+
+@media (max-width: 500px)
+{
+
+    #topbar .container{width:100%}
+    #topbar .container .span5{float:left; width: 100%;display: none;}
+    #topbar .container .span7{float:right; width: 100%;}
+    #topbar .container .span7 ul{margin-left: 0px;}
+
+}
+
+@media (max-width: 768px)
+{
+    .da-arrows span{zoom: 0.5}
+    .da-dots span {zoom: 0.5}
+    .da-dots{bottom: 10px;}
+}
+
+
+@media (max-width: 979px)
+{
+    .section#portfolio .container ul.nav-pills,
+    .section#portfolio .container #single-project,
+    .section#price .container .price-table-parent,
+    .locations{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-distributed
+    {
+        padding: 30px 20px;
+
+    }
+    #second-place{margin-top:20px}
+
+   .container .price-table{padding-left: 0px !important;padding-right: 0px !important;}
+}
+
+@media (min-width: 768px) and (max-width: 1200px)
+{
+
+    .price-column h3
+    {
+        font-size : 24px;
+    }
+
+    .price-column .list li.price, .price-column .list li
+    {
+        font-size : 18px;
+    }
+}

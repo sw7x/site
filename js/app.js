@@ -14,17 +14,6 @@ console.log("selector" in obj);
 
 
 
-
-
-/*
- * A Design by GraphBerry
- * Author: GraphBerry
- * Author URL: http://graphberry.com
- * License: http://graphberry.com/pages/license
- */
-
-
-
  jQuery(document).ready(function ($) {
 
     var lastId,
@@ -108,6 +97,20 @@ console.log("selector" in obj);
          });
      });
 
+    //Resize animated triangle
+     $(".triangle4").css({
+         "border-left": 0 + 'px outset transparent',
+         "border-right": containerWidth  + 'px outset transparent'
+     });
+     $(window).resize(function (){
+         containerWidth = $( window ).width();
+         //alert(containerWidth);
+
+         $(".triangle4").css({
+             "border-left": 0 + 'px outset transparent',
+             "border-right": containerWidth + 'px outset transparent'
+         });
+     });
 
     //Initialize header slider.
     $('#da-slider').cslider();
@@ -301,6 +304,23 @@ $("#send-mail").click(function () {
             error = true; // change the error state to true
         }
 
+        // Syntax to compare against input
+        var phoneCompare = /^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/;
+        var phone = $('input#phone').val().toLowerCase(); // get the value of the input field
+        if (phone == "" || phone == " " || !phoneCompare.test(phone)) {
+            $('#err-phone').show(500);
+            $('#err-phone').delay(4000);
+            $('#err-phone').animate({
+                height: 'toggle'
+            }, 500, function () {
+                // Animation complete.
+            });
+            error = true; // change the error state to true
+        }
+
+
+
+
         if (error == false) {
             var dataString = $('#contact-form').serialize(); // Collect data from form
             $.ajax({
@@ -318,6 +338,7 @@ $("#send-mail").click(function () {
                         $("#name").val('');
                         $("#email").val('');
                         $("#comment").val('');
+                        $("#phone").val('');
                     } else {
                         $('#errorSend').show();
                     }
@@ -414,6 +435,16 @@ $("#send-mail").click(function () {
              jQuery(this).removeClass("animated fadeInUp");
          }
      });
+
+     //Animate triangles
+     jQuery('.triangle4').bind('inview', function (event, visible) {
+         if (visible == true) {
+             jQuery(this).addClass("animated fadeInUp");
+         } else {
+             jQuery(this).removeClass("animated fadeInUp");
+         }
+     });
+
 
      //animate first team member
     jQuery('#first-person').bind('inview', function (event, visible) {

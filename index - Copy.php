@@ -1,11 +1,17 @@
 <!DOCTYPE html>
+<!--
+ * A Design by GraphBerry
+ * Author: GraphBerry
+ * Author URL: http://graphberry.com
+ * License: http://graphberry.com/pages/license
+-->
 <html lang="en">
     
     <head>
         <meta charset=utf-8>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Webdesignersrilnak.lk</title>
-
+        <!-- Load Roboto font -->
 
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 
@@ -14,11 +20,9 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
 
         <link rel="stylesheet" type="text/css" href="css/theme.css" />
-
         <!--[if IE 7]>
         <link rel="stylesheet" type="text/css" href="css/ie7.css"/>
         <![endif]-->
-
         <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
         <link rel="stylesheet" type="text/css" href="css/animate.css" />
@@ -32,8 +36,12 @@
 
 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+        <link rel="shortcut icon" href="images/ico/favicon.ico">
     </head>
     
     <body>
@@ -45,8 +53,6 @@
             <div class="loader-section section-right"></div>
 
         </div>
-
-
 
         <div class="navbar hidden">
 
@@ -82,7 +88,6 @@
 
             <div class="navbar-inner">
                 <div class="container">
-
                     <a href="#" class="brand">
                         <img src="images/logo.png" width="120" height="40" alt="Logo" />
                         <!-- This is website logo -->
@@ -93,12 +98,6 @@
                     </button>
                     <!-- Main navigation -->
                     <div class="nav-collapse collapse pull-right">
-
-
-
-
-
-
                         <ul class="nav" id="top-navigation">
                             <li class="active"><a href="#home">Home</a></li>
                             <li><a href="#service">Services</a></li>
@@ -106,6 +105,7 @@
                             <li><a href="#about">About</a></li>
                             <li><a href="#clients">Clients</a></li>
                             <li><a href="#price">Price</a></li>
+                            <li><a href="#blog">Blog</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -155,7 +155,6 @@
                         }
                         ?>
                         <!-- End first slide -->
-
                         <!-- Start second slide
                         <div class="da-slide">
                             <h2>Easy management</h2>
@@ -189,9 +188,11 @@
                 </div>
             </div>
             <!-- End home section -->
-
-
             <!-- Service section start -->
+
+
+
+
             <div class="section primary-section" id="service">
 
                 <div class="container">
@@ -671,14 +672,12 @@
                         </ul>
                     </div>
                 </div>
-            <!--</div>--><div class="triangle4"></div>
+            <!--</div>-->
             </div>
             <!-- Portfolio section end -->
-
-
             <!-- About us section start -->
             <div class="section primary-section" id="about">
-
+                <div class="triangle2"></div>
                 <div class="container">
 
                     <div class="title">
@@ -697,8 +696,7 @@
                             is to create a strong online presence that connects with your audience. We are helping our clients
                             to realize value from online media. Our team will design, develop and execute our client's objectives
                             by integrating web solutions, mobile applications. If you would like us to assist you in building a
-                            strong online presence for your business, please contact Web Designers Sri Lanka on <a href="tel:+94779190673" class="tp-small">&nbsp;&nbsp;077-9190673</a> or
-                            <a href="tel:+9476-6755645" class="tp-small">&nbsp;&nbsp;076-6755645</a>.
+                            strong online presence for your business, please contact Web Designers Sri Lanka on 077 91 90 673.
                         </p>
                     </div>
 
@@ -709,40 +707,110 @@
                         <h1>Where Are We Located</h1>
                         <p style="text-align:justify; ">We are located both colombo and kandy in sri lanka.</p>
                     </div>
-                    <div class="locations">
-                        <div class="row-fluid team">
-                            <div class="span4" id="first-place">
-                                <div class="thumbnail">
-                                    <img src="images/colombo.jpg" alt="team 1">
-                                    <h3>Colombo</h3>
+                    <div class="row-fluid team">
+                        <div class="span4" id="first-place">
+                            <div class="thumbnail">
+                                <img src="images/colombo.jpg" alt="team 1">
+                                <h3>Colombo</h3>
 
-                                    <div class="mask">
-                                        <h2>Colombo</h2>
-                                        <p style="font-weight: bold;">Our Head Office is Located on Colombo <br>Call Us <a href="tel:+94779190673" style="color:#fff">&nbsp;&nbsp;077-9190673</a></p>
-                                    </div>
+                                <div class="mask">
+                                    <h2>Colombo</h2>
+                                    <p style="font-weight: bold;">Our Head Office is Located on Colombo <br>Call Us <a href="tel:+94779190673" style="color:#fff">&nbsp;&nbsp;077-9190673</a></p>
                                 </div>
                             </div>
-                            <div class="span4" id="second-place">
-                                <div class="thumbnail">
-                                    <img src="images/kandy.jpg" alt="team 1">
-                                    <h3>Kandy</h3>
-
-                                    <div class="mask">
-                                        <h2>Kandy</h2>
-                                        <p style="font-weight: bold;">We also have Branch in kandy <br>Call Us <a href="tel:+94766755645" style="color:#fff">&nbsp;&nbsp;076-6755645</a></p>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+                        <div class="span4" id="second-place">
+                            <div class="thumbnail">
+                                <img src="images/kandy.jpg" alt="team 1">
+                                <h3>Kandy</h3>
+
+                                <div class="mask">
+                                    <h2>Kandy</h2>
+                                    <p style="font-weight: bold;">We also have Branch in kandy <br>Call Us <a href="tel:+94766755645" style="color:#fff">&nbsp;&nbsp;076-6755645</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="span4" id="third-person">-->
+                            <!--<p>When you stop expecting people to be perfect, you can like them for who they are.</p>-->
+                            <!--<div class="thumbnail">-->
+                                <!--<img src="images/Team3.png" alt="team 1">-->
+                                <!--<h3>John Doe</h3>-->
+                                <!--<ul class="social">-->
+                                    <!--<li>-->
+                                        <!--<a href="">-->
+                                            <!--<span class="icon-facebook-circled"></span>-->
+                                        <!--</a>-->
+                                    <!--</li>-->
+                                    <!--<li>-->
+                                        <!--<a href="">-->
+                                            <!--<span class="icon-twitter-circled"></span>-->
+                                        <!--</a>-->
+                                    <!--</li>-->
+                                    <!--<li>-->
+                                        <!--<a href="">-->
+                                            <!--<span class="icon-linkedin-circled"></span>-->
+                                        <!--</a>-->
+                                    <!--</li>-->
+                                <!--</ul>-->
+                                <!--<div class="mask">-->
+                                    <!--<h2>Photographer</h2>-->
+                                    <!--<p>When you stop expecting people to be perfect, you can like them for who they are.</p>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
                     </div>
 
                     <br>
-
+                    <!--<h3>Skills</h3>-->
+                    <!--<div class="row-fluid">-->
+                        <!--<div class="span6">-->
+                            <!--<ul class="skills">-->
+                                <!--<li>-->
+                                    <!--<span class="bar" data-width="80%"></span>-->
+                                    <!--<h3>Graphic Design</h3>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                    <!--<span class="bar" data-width="95%"></span>-->
+                                    <!--<h3>Html & Css</h3>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                    <!--<span class="bar" data-width="68%"></span>-->
+                                    <!--<h3>jQuery</h3>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                    <!--<span class="bar" data-width="70%"></span>-->
+                                    <!--<h3>Wordpress</h3>-->
+                                <!--</li>-->
+                            <!--</ul>-->
+                        <!--</div>-->
+                        <!--<div class="span6">-->
+                            <!--<div class="highlighted-box center">-->
+                                <!--<h1>We're Hiring</h1>-->
+                                <!--<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, ullamcorper suscipit lobortis nisl ut aliquip consequat. I learned that we can do anything, but we can't do everything...</p>-->
+                                <!--<button class="button button-sp">Join Us</button>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
                 </div>
             </div>
-            <!-- About us section end -->
 
+            <!-- About us section end -->
+            <!--<div class="section secondary-section">-->
+                <!--<div class="triangle"></div>-->
+                <!--<div class="container centered">-->
+                    <!--<p class="large-text">Elegance is not the abundance of simplicity. It is the absence of complexity.</p>-->
+                    <!--<a href="#" class="button">Purshase now</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!-- Client section start -->
+            <!-- Client section start -->
+            <!--<div >-->
+                <!--<div class="section primary-section">-->
+                    <!--<div class="triangle2"></div>-->
+                    <!---->
+
+                <!--</div>-->
+            <!--</div>-->
             <div class="section third-section" id="clients">
                 <div class="triangle"></div>
                 <div class="container centered">
@@ -817,84 +885,79 @@
                 <div class="container">
                     <div class="title">
                         <h1>Price</h1>
-                        <p style="text-align: justify;">Our Web Design Packages Starting at Rs 20,000 .
+                        <p style="    text-align: justify;">Our Web Design Packages Starting at Rs 20,000 .
                             A great conversion-based web design is very powerful
                             and will greatly help you rank and grow your business,
                             which is why customers are constantly approaching our
                             creative and market-leading Web designers Sri Lanka team
                             to create unique and eye-catching designs for their websites
                             because they know great designs can instantly grab the attention
-                            website visitors
-                        </p>
+                            website visitors</p>
                     </div>
+                    <div class="price-table row-fluid">
+                        <div class="span3 price-column">
+                            <h3>Starter</h3>
+                            <ul class="list">
+                                <li class="price"><strong>Rs 20,000/=</strong></li>
+                                <li><strong>5 Web Pages</strong></li>
+                                <li><strong>Free One Year Web Hosting</strong></li>
+                                <li><strong>3 E-mail Accounts</strong></li>
+                                <li><strong>Photo Gallery</strong></li>
+                                <li><strong>Contact US form</strong></li>
+                                <li><strong>Basic SEO</strong></li>
+                                <li><strong>-</strong></li>
+                                <li><strong>-</strong></li>
+                            </ul>
+                            <a href="#contact-form" class="button button-ps">Order Now</a>
+                        </div>
+                        <div class="span3 price-column">
+                            <h3>Premium</h3>
+                            <ul class="list">
+                                <li class="price"><strong>Rs 40,000/=</strong></li>
+                                <li><strong>10 Web Pages</strong></li>
+                                <li><strong>Responsive design</strong></li>
+                                <li><strong>Free One Year Web Hosting</strong></li>
+                                <li><strong>5 E-mail Accounts</strong></li>
+                                <li><strong>Photo Gallery</strong></li>
+                                <li><strong>Contact US form</strong></li>
+                                <li><strong>Basic SEO</strong></li>
+                                <li><strong>-</strong></li>
+                            </ul>
+                            <a href="#contact-form" class="button button-ps">Order Now</a>
+                        </div>
+                        <div class="span3 price-column">
+                            <h3>Business</h3>
+                            <ul class="list">
+                                <li class="price"><strong>Rs 65,000/=</strong></li>
+                                <li><strong>Unlimited Web Pages</strong></li>
+                                <li><strong>CMS Website</strong></li>
+                                <li><strong>Responsive design</strong></li>
+                                <li><strong>Free One Year Web Hosting</strong></li>
+                                <li><strong>10 E-mail Accounts</strong></li>
+                                <li><strong>Video & Photo Galleries</strong></li>
+                                <li><strong>Contact US form</strong></li>
+                                <li><strong>Basic SEO</strong></li>
 
-                    <div class="price-table-parent">
-                        <div class="price-table row-fluid">
-                            <div class="span3 price-column">
-                                <h3>Starter</h3>
-                                <ul class="list">
-                                    <li class="price"><strong>Rs 20,000/=</strong></li>
-                                    <li><strong>5 Web Pages</strong></li>
-                                    <li><strong>Free One Year Web Hosting</strong></li>
-                                    <li><strong>3 E-mail Accounts</strong></li>
-                                    <li><strong>Photo Gallery</strong></li>
-                                    <li><strong>Contact US form</strong></li>
-                                    <li><strong>Basic SEO</strong></li>
-                                    <li><strong>-</strong></li>
-                                    <li><strong>-</strong></li>
-                                </ul>
-                                <a href="#contact-form" class="button button-ps">Order Now</a>
-                            </div>
-                            <div class="span3 price-column">
-                                <h3>Premium</h3>
-                                <ul class="list">
-                                    <li class="price"><strong>Rs 40,000/=</strong></li>
-                                    <li><strong>10 Web Pages</strong></li>
-                                    <li><strong>Responsive design</strong></li>
-                                    <li><strong>Free One Year Web Hosting</strong></li>
-                                    <li><strong>5 E-mail Accounts</strong></li>
-                                    <li><strong>Photo Gallery</strong></li>
-                                    <li><strong>Contact US form</strong></li>
-                                    <li><strong>Basic SEO</strong></li>
-                                    <li><strong>-</strong></li>
-                                </ul>
-                                <a href="#contact-form" class="button button-ps">Order Now</a>
-                            </div>
-                            <div class="span3 price-column">
-                                <h3>Business</h3>
-                                <ul class="list">
-                                    <li class="price"><strong>Rs 65,000/=</strong></li>
-                                    <li><strong>Unlimited Web Pages</strong></li>
-                                    <li><strong>CMS Website</strong></li>
-                                    <li><strong>Responsive design</strong></li>
-                                    <li><strong>Free One Year Web Hosting</strong></li>
-                                    <li><strong>10 E-mail Accounts</strong></li>
-                                    <li><strong>Video & Photo Galleries</strong></li>
-                                    <li><strong>Contact US form</strong></li>
-                                    <li><strong>Basic SEO</strong></li>
+                            </ul>
+                            <a href="#contact-form" class="button button-ps">Order Now</a>
+                        </div>
+                        <div class="span3 price-column">
+                            <h3>Enterprise</h3>
+                            <ul class="list">
+                                <li class="price"><strong>Rs 80,000/=</strong></li>
+                                <li><strong>Unlimited Web Pages</strong></li>
+                                <li><strong>Category Based CMS</strong></li>
+                                <li><strong>Responsive design</strong></li>
+                                <li><strong>Free One Year Web Hosting</strong></li>
+                                <li><strong>10 E-mail Accounts</strong></li>
+                                <li><strong>Video & Photo Galleries</strong></li>
+                                <li><strong>Contact US form</strong></li>
+                                <li><strong>Basic SEO</strong></li>
 
-                                </ul>
-                                <a href="#contact-form" class="button button-ps">Order Now</a>
-                            </div>
-                            <div class="span3 price-column">
-                                <h3>Enterprise</h3>
-                                <ul class="list">
-                                    <li class="price"><strong>Rs 80,000/=</strong></li>
-                                    <li><strong>Unlimited Web Pages</strong></li>
-                                    <li><strong>Category Based CMS</strong></li>
-                                    <li><strong>Responsive design</strong></li>
-                                    <li><strong>Free One Year Web Hosting</strong></li>
-                                    <li><strong>10 E-mail Accounts</strong></li>
-                                    <li><strong>Video & Photo Galleries</strong></li>
-                                    <li><strong>Contact US form</strong></li>
-                                    <li><strong>Basic SEO</strong></li>
-
-                                </ul>
-                                <a href="#contact-form" class="button button-ps">Order Now</a>
-                            </div>
+                            </ul>
+                            <a href="#contact-form" class="button button-ps">Order Now</a>
                         </div>
                     </div>
-
                     <div class="centered custom-plans-div">
                         <p class="price-text">We Offer Custom Plans. Contact Us For More Info.</p>
                         <a href="#contact-form" class="button">Contact Us</a>
@@ -902,6 +965,96 @@
                 </div>
             </div>
             <!-- Price section end -->
+
+
+
+
+
+
+
+        <!-- Blog section start -->
+        <div id="blog" class="section secondary-section">
+            <div class="container">
+                <div class="title">
+                    <h1>Blog</h1>
+                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                </div>
+
+                <div class="blog-list row">
+                    <div class="col-md-12">
+                        <ul class="timeline">
+                            <li  >
+                                <div class="timeline-image">
+                                    <a href="" title="Markup And Formatting">
+                                        <img width="200" height="200" src="#" class="img-circle wp-post-image" alt="cabin" />									</a>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <span>January 11, 2013</span>
+                                        <h3 class="subheading"><a href="#" title="Markup And Formatting">Markup And Formatting</a></h3>
+                                    </div>
+                                    <div class="timeline-body">
+                                        Headings Header one Header two Header three Header four Header five Header six Blockquotes Single line blockquote: Stay hungry. Stay foolish. Multi line blockquote with a cite reference: People think&hellip;								</div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted" >
+                                <div class="timeline-image">
+                                    <a href="#" title="Image Alignment">
+                                        <img width="200" height="200" src="#" class="img-circle wp-post-image" alt="cake" />									</a>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <span>January 10, 2013</span>
+                                        <h3 class="subheading"><a href="#" title="Image Alignment">Image Alignment</a></h3>
+                                    </div>
+                                    <div class="timeline-body">
+                                        Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab&hellip;								</div>
+                                </div>
+                            </li>
+                            <li  >
+                                <div class="timeline-image">
+                                    <a href="#" title="Text Alignment">
+                                        <img width="200" height="200" src="#" class="img-circle wp-post-image" alt="circus" />									</a>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <span>January 9, 2013</span>
+                                        <h3 class="subheading"><a href="#" title="Text Alignment">Text Alignment</a></h3>
+                                    </div>
+                                    <div class="timeline-body">
+                                        Default This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free&hellip;								</div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted" >
+                                <div class="timeline-image">
+                                    <a href="#" title="Sticky">
+                                        <img width="200" height="200" src="#" class="img-circle wp-post-image" alt="game" />									</a>
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <span>January 7, 2013</span>
+                                        <h3 class="subheading"><a href="#" title="Sticky">Sticky</a></h3>
+                                    </div>
+                                    <div class="timeline-body">
+                                        This is a sticky post. There are a few things to verify: The sticky post should be distinctly recognizable in some way in comparison to normal posts. You can style the .sticky&hellip;								</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p class="centered"><a href="#" class="button">More Posts</a></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -916,8 +1069,7 @@
                             We are passionate online business builders who specialize in quality design, web development,
                             Mobile app development, online marketing and online publishing. Please view some examples of
                             our most recent projects. If you are looking for quality professional website services or if
-                            you have a question about our website design services, please give us a Call on <a href="tel:+94779190673" class="tp-small">&nbsp;&nbsp;077-9190673</a> or
-                            <a href="tel:+9476-6755645" class="tp-small">&nbsp;&nbsp;076-6755645</a>
+                            you have a question about our website design services, please give us a Call on 077 91 90 673
                         </p>
                     </div>
                 </div>
@@ -932,7 +1084,7 @@
                                 <div id="successSend" class="alert alert-success invisible">
                                     <strong>Well done!</strong>Your message has been sent.</div>
                                 <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
-                                <form id="contact-form" action="mail.php">
+                                <form id="contact-form" action="php/mail.php">
                                     <div class="control-group">
                                         <div class="controls">
                                             <input class="span12" type="text" id="name" name="name" placeholder="Your Name" />
@@ -948,8 +1100,8 @@
 
                                     <div class="control-group">
                                         <div class="controls">
-                                            <input class="span12" type="tel" name="phone" id="phone" placeholder="Your Phone number" />
-                                            <div class="error left-align" id="err-phone">Please enter valid phone number.</div>
+                                            <input class="span12" type="email" name="email" id="phone" placeholder="Your Phone number" />
+                                            <div class="error left-align" id="err-phone">Please enter valid email adress.</div>
                                         </div>
                                     </div>
 
@@ -977,7 +1129,7 @@
                         </div>
 
 
-                        <address>Web Designers Sri Lanka, Oceanview Tower, Colombo 04, Sri Lanka</address>
+                            <address>Web Designers Sri Lanka, Oceanview Tower, Colombo 04, Sri Lanka</address>
 
                         <a href="mailto:info@webdesignerssrilanka.lk" class="info-mail">info@webdesignerssrilanka.lk</a>
 
@@ -1006,84 +1158,83 @@
         </div>
         <!-- Contact section edn -->
 
-
-
         <!-- Footer section start -->
-        <div style="background: #005C97;background: -webkit-linear-gradient(to left, #01548A , #10264A);background: linear-gradient(to left, #01548A , #10264A);">
-            <div class="triangle2"></div>
-            <footer class="footer-distributed">
+        <div style="background: #005C97;
+    background: -webkit-linear-gradient(to left, #01548A , #10264A);
+        background: linear-gradient(to left, #01548A , #10264A);"><div class="triangle2"></div>
+        <footer class="footer-distributed">
 
-                <div class="footer-left">
-                    <a href="#" class="brand">
-                        <img src="images/logo.png" width="120" height="40" alt="Logo" />
-                        <!-- This is website logo -->
-                    </a>
+            <div class="footer-left">
+                <a href="#" class="brand">
+                    <img src="images/logo.png" width="120" height="40" alt="Logo" />
+                    <!-- This is website logo -->
+                </a>
 
 
-                    <ul class="footer-links">
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#service">SERVICES</a></li>
-                        <li><a href="#portfolio">PORTFOLIO</a></li>
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#clients">CLIENTS</a></li>
-                        <li><a href="#price">PRICE</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
+                <ul class="footer-links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#clients">CLIENTS</a></li>
+                    <li><a href="#price">PRICE</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+
+
+
+                <div class="footer_company_name">Web Designers Sri Lanka &copy; 2016</div>
+
+            </div>
+
+            <div class="footer-center">
+
+                <div class="clearfix">
+                    <i class="fa fa-map-marker" style="float: left;"></i>
+                    <address style="float: left;padding:0px 10px;color: #fff;font-family: 'Lato', sans-serif;">Web Designers Sri Lanka,<br> Oceanview Tower,<br> Colombo 04,<br> Sri Lanka</address>
+                </div>
+
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p><a href="tel:+94779190673">077-9190673</a></p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p><a href="tel:+9476-6755645">076-6755645</a></p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:info@webdesignerssrilanka.lk" class="">info@webdesignerssrilanka.lk</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>About The Company</span>
+                    Web Designers Sri Lanka is a locally based web design and development company. We specialize in
+                    creating websites that build company profiles, utilizing a range of online marketing strategies and
+                    web technologies.
+                </p>
+
+                <div class="footer-icons">
+                    <ul class="top-soc-small social">
+                        <li><a class="soc-facebook" href="#"></a></li>
+                        <li><a class="soc-twitter" href="#"></a></li>
+                        <li><a class="soc-google" href="#"></a></li>
+                        <li><a class="soc-pinterest" href="#"></a></li>
+                        <li><a class="soc-linkedin" href="#"></a></li>
+                        <li><a class="soc-skype soc-icon-last" href="#"></a></li>
                     </ul>
-
-
-
-                    <div class="footer_company_name">Web Designers Sri Lanka &copy; 2016</div>
-
                 </div>
+            </div>
 
-                <div class="footer-center">
-
-                    <div class="clearfix">
-                        <i class="fa fa-map-marker" style="float: left;"></i>
-                        <address style="float: left;padding:0px 10px;color: #fff;font-family: 'Lato', sans-serif;">Web Designers Sri Lanka,<br> Oceanview Tower,<br> Colombo 04,<br> Sri Lanka</address>
-                    </div>
-
-
-                    <div>
-                        <i class="fa fa-phone"></i>
-                        <p><a href="tel:+94779190673">077-9190673</a></p>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-phone"></i>
-                        <p><a href="tel:+9476-6755645">076-6755645</a></p>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-envelope"></i>
-                        <p><a href="mailto:info@webdesignerssrilanka.lk" class="">info@webdesignerssrilanka.lk</a></p>
-                    </div>
-
-                </div>
-
-                <div class="footer-right">
-
-                    <p class="footer-company-about">
-                        <span>About The Company</span>
-                        Web Designers Sri Lanka is a locally based web design and development company. We specialize in
-                        creating websites that build company profiles, utilizing a range of online marketing strategies and
-                        web technologies.
-                    </p>
-
-                    <div class="footer-icons">
-                        <ul class="top-soc-small social">
-                            <li><a class="soc-facebook" href="#"></a></li>
-                            <li><a class="soc-twitter" href="#"></a></li>
-                            <li><a class="soc-google" href="#"></a></li>
-                            <li><a class="soc-pinterest" href="#"></a></li>
-                            <li><a class="soc-linkedin" href="#"></a></li>
-                            <li><a class="soc-skype soc-icon-last" href="#"></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </footer>
-        </div>
+        </footer></div>
         <!-- Footer section end -->
 
         <!-- ScrollUp button start -->
@@ -1105,10 +1256,8 @@
         <script type="text/javascript" src="js/jquery.cslider.js"></script>
         <script type="text/javascript" src="js/jquery.placeholder.js"></script>
         <script type="text/javascript" src="js/jquery.inview.js"></script>
-
         <!-- Load google maps api and call initializeMap function defined in app.js -->
         <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
-
         <!-- css3-mediaqueries.js for IE8 or older -->
         <!--[if lt IE 9]>
             <script src="js/respond.min.js"></script>

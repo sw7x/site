@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'porta';
-  src: url('../fonts/pluton.eot?49924914');
-  src: url('../fonts/pluton.eot?49924914#iefix') format('embedded-opentype'),
-       url('../fonts/pluton.woff?49924914') format('woff'),
-       url('../fonts/pluton.ttf?49924914') format('truetype'),
-       url('../fonts/pluton.svg?49924914#porta') format('svg');
+  src: url('../fonts/site-font.eot?49924914');
+  src: url('../fonts/site-font.eot?49924914#iefix') format('embedded-opentype'),
+       url('../fonts/site-font.woff?49924914') format('woff'),
+       url('../fonts/site-font.ttf?49924914') format('truetype'),
+       url('../fonts/site-font.svg?49924914#porta') format('svg');
   font-weight: normal;
   font-style: normal;
 }
