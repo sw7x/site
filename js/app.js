@@ -140,23 +140,25 @@ console.log("selector" in obj);
     $('input, textarea').placeholder();
 
     // Bind to scroll
-    $(window).scroll(function () {
+    $(window).scroll(function ()
+    {
 
         //Display or hide scroll to top button
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 100)
+        {
             $('.scrollup').fadeIn();
         } else {
             $('.scrollup').fadeOut();
         }
 
-        if ($(this).scrollTop() > 130) {
+        if ($(this).scrollTop() >130) {
             $('.navbar').addClass('navbar-fixed-top animated fadeInDown');
         } else {
             $('.navbar').removeClass('navbar-fixed-top animated fadeInDown');
         }
 
         // Get container scroll position
-        var fromTop = $(this).scrollTop() + topMenuHeight + 10;
+        var fromTop = $(this).scrollTop() + topMenuHeight +140;
 
         // Get id of current scroll item
         var cur = scrollItems.map(function () {
@@ -206,7 +208,7 @@ console.log("selector" in obj);
                         topMenu.parent().attr('style', 'height:0px').removeClass('in'); //Close navigation
                         $('.navbar .btn-navbar').addClass('collapsed');
 
-                        var targetOffset = $target.offset().top - 63;
+                        var targetOffset = $target.offset().top -80;
                         $('html, body').animate({
                             scrollTop: targetOffset
                         }, 800);
@@ -389,7 +391,7 @@ $("#send-mail").click(function () {
     *************************/
 
     //Animate thumbnails
-    jQuery('.thumbnail').one('inview', function (event, visible) {
+    jQuery('.thumbnail').bind('inview', function (event, visible) {
         if (visible == true) {
             jQuery(this).addClass("animated fadeInDown");
         } else {
@@ -512,18 +514,18 @@ $("#send-mail").click(function () {
     //Animate contact form
     jQuery('.contact-form').bind('inview', function (event, visible) {
         if (visible == true) {
-            jQuery('.contact-form').addClass("animated bounceIn");
+            jQuery('.contact-form').addClass("animated fadeInDown");
         } else {
-            jQuery('.contact-form').removeClass("animated bounceIn");
+            jQuery('.contact-form').removeClass("animated fadeInDown");
         }
     });
 
      //Animate contact form
      jQuery('ul#clint-slider li').bind('inview', function (event, visible) {
          if (visible == true) {
-             jQuery('ul#clint-slider li').addClass("animated bounceIn");
+             jQuery('ul#clint-slider li').addClass("animated fadeInDown");
          } else {
-             jQuery('ul#clint-slider li').removeClass("animated bounceIn");
+             jQuery('ul#clint-slider li').removeClass("animated fadeInDown");
          }
      });
 

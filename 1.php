@@ -67,9 +67,9 @@
                     <div class="span7">
                         <div class="menu-top-menu-container">
                             <ul id="top-menu" class="top-menu clearfix">
-                                <li class=""><i class="fa fa-phone"></i><a href="tel:+94779190673" class="tp-small"> 077-9190673</a></li>
-                                <li class=""><i class="fa fa-phone"></i><a href="tel:+9476-6755645" class="tp-small"> 076-6755645</a></li>
-                                <li class=""><i class="fa fa-envelope"></i><a href="mailto:info@webdesignerssrilanka.lk" class="top-address"> info@webdesignerssrilanka.lk</a></li>
+                                <li class=""><i class="fa fa-phone"></i><a href="tel:+94779190673"> 077-9190673</a></li>
+                                <li class=""><i class="fa fa-phone"></i><a href="tel:+9476-6755645"> 076-6755645</a></li>
+                                <li class=""><i class="fa fa-envelope"></i><a href="mailto:info@webdesignerssrilanka.lk" class=""> info@webdesignerssrilanka.lk</a></li>
 
                             </ul>
                         </div>
@@ -120,201 +120,90 @@
 
 
 
+        <!-- About us section start -->
+        <div class="section primary-section" id="about">
 
+            <div class="container">
 
+                <div class="title">
+                    <h1>About Us</h1>
+                    <p style="text-align: justify">Web Designers Sri Lanka is a locally based web design and development company. We specialize
+                        in creating websites that build company profiles, utilizing a range of online marketing strategies
+                        and web technologies. We provide extensive experience in search engine optimization and search engine
+                        marketing. We also specialize in website traffic analysis. We are keen advocates for mobile responsive
+                        web design, web accessibility best practice and cross browser compatibility in order to optimize the
+                        end user experience.
+                    </p>
 
-
-
-
-        <!-- Start home section -->
-            <div id="home">
-                <!-- Start cSlider -->
-                <div id="da-slider" class="da-slider">
-                    <div class="triangle"></div>
-                    <!-- mask elemet use for masking background image -->
-                    <div class="mask"></div>
-                    <!-- All slides centred in container element -->
-                    <div class="container">
-                        <!-- Start first slide -->
-
-                        <?php
-                        $heading_2 = array(
-                                            'Web Designing',
-                                            'Web Developing',
-                                            'Customer Satisfaction',
-                                            'Launching',
-                                            'Clients',
-                                            'Mobile',
-                                            'Devices',
-                                            'Technologies');
-
-                        $heading_4 = array(
-                                            'We make Eye Catching Elegant Designs',
-                                            '',
-                                            'We guaranteed 100% customer satisfaction',
-                                            'Make Your Website Live',
-                                            'Project Scale',
-                                            'Mobile  Comfortable Web Apps',
-                                            'Responsive Web Designs',
-                                            'latest technologies');
-
-                        $paragraph = array(
-                                            'Elegant and beautiful design is the key thing that seek attention of visitors.',
-                                            'We are developing various kind of web applications from simple solutions to large scale projects.',
-                                            '',
-                                            'We are our unique knowledge and experience to make launch your web site as soon as possible.',
-                                            'We have very well experienced working with the clients offered small and also large scale projects.',
-                                            'We make web apps that 100% comfortable with all mobile devices.',
-                                            'we are using Clean & responsive web design techniques to make your web site work with various devices.',
-                                            'We are using latest web technologies such as HTML5, CSS3, JAVASCRIPT(ES 5), PHP 5.6, MYSQL 5.7 .....');
-
-                        $imgNo = array(2,24,7,9,17,5,13,25);
-
-                        for ($i=0;$i<8;$i++)
-                        {
-                            ?>
-                            <div class="da-slide">
-                                <h2 class="fittext2"><?php echo $heading_2[$i];?></h2>
-                                <h4><?php echo $heading_4[$i];?></h4>
-                                <p><?php echo $paragraph[$i];?></p>
-<!--                                <a href="#" class="da-link button">Read more</a>-->
-                                <div class="da-img">
-                                    <img src="images/slider/<?php echo $imgNo[$i];?>.png" alt="image01" width="480">
-                                </div>
-                            </div>
-                            <?php
-                        }
-                        ?>
-                        <!-- End first slide -->
-
-                        <!-- Start second slide
-                        <div class="da-slide">
-                            <h2>Easy management</h2>
-                            <h4>Easy to use</h4>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <a href="#" class="da-link button">Read more</a>
-                            <div class="da-img">
-                                <img src="images/Slider02.png" width="320" alt="image02">
-                            </div>
-                        </div>-->
-                        <!-- End second slide -->
-                        <!-- Start third slide
-                        <div class="da-slide">
-                            <h2>Revolution</h2>
-                            <h4>Customizable</h4>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                            <a href="#" class="da-link button">Read more</a>
-                            <div class="da-img">
-                                <img src="images/Slider03.png" width="320" alt="image03">
-                            </div>
-                        </div>-->
-                        <!-- Start third slide -->
-                        <!-- Start cSlide navigation arrows -->
-                        <div class="da-arrows">
-                            <span class="da-arrows-prev"></span>
-                            <span class="da-arrows-next"></span>
-                        </div>
-                        <!-- End cSlide navigation arrows -->
-                    </div>
-
+                    <h1>Our Mission</h1>
+                    <p style="text-align: justify">We aim to provide long-lasting strategies that build on your businesses
+                        bottom-line, reduce costs and maximize return on investment. The initial goal of any website design
+                        is to create a strong online presence that connects with your audience. We are helping our clients
+                        to realize value from online media. Our team will design, develop and execute our client's objectives
+                        by integrating web solutions, mobile applications. If you would like us to assist you in building a
+                        strong online presence for your business, please contact Web Designers Sri Lanka on <a href="tel:+94779190673" class="tp-small">&nbsp;&nbsp;077-9190673</a> or
+                        <a href="tel:+9476-6755645" class="tp-small">&nbsp;&nbsp;076-6755645</a>.
+                    </p>
                 </div>
-            </div>
-            <!-- End home section -->
 
 
-            <!-- Service section start -->
-            <div class="section primary-section" id="service">
 
-                <div class="container">
-                    <!-- Start title section -->
-                    <div class="title">
-                        <h1>Our Services</h1>
-                        <!-- Section's title goes here -->
-                        <p style="text-align: justify;">We provide various kind of services according to your neeeds.Below Shows Categorized view providing services.Our main target is provide full Customer satisfaction</p>
-                        <!--Simple description for section goes here. -->
-                    </div>
-                    <div class="row-fluid">
-                        <div class="span4 serviceDiv">
-                            <div class="centered service">
-                                <div class="circle-border_ zoom-in">
-                                    <img class="img-circle" src="images/service2.png" alt="service 2" />
+
+                <div class="title">
+                    <h1>Where Are We Located</h1>
+                    <p style="text-align:justify; ">We are located both colombo and kandy in sri lanka.</p>
+                </div>
+                <div class="locations">
+                    <div class="row-fluid team">
+                        <div class="span4" id="first-place">
+                            <div class="thumbnail">
+                                <img src="images/colombo.jpg" alt="team 1">
+                                <h3>Colombo</h3>
+
+                                <div class="mask">
+                                    <h2>Colombo</h2>
+                                    <p style="font-weight: bold;">Our Head Office is Located on Colombo <br>Call Us <a href="tel:+94779190673" style="color:#fff">&nbsp;&nbsp;077-9190673</a></p>
                                 </div>
-                                <h3>Web Design</h3>
-                                <p>
-                                    We Create Eye catching, elegant unique designs. Because elegant and beautiful design
-                                    is the key thing that seek attention of visitors.
-                                </p>
+                            </div>
+                        </div>
+                        <div class="span4" id="second-place">
+                            <div class="thumbnail">
+                                <img src="images/kandy.jpg" alt="team 1">
+                                <h3>Kandy</h3>
+
+                                <div class="mask">
+                                    <h2>Kandy</h2>
+                                    <p style="font-weight: bold;">We also have Branch in kandy <br>Call Us <a href="tel:+94766755645" style="color:#fff">&nbsp;&nbsp;076-6755645</a></p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="span4 serviceDiv">
-                            <div class="centered service">
-                                <div class="circle-border_ zoom-in">
-                                    <img class="img-circle" src="images/service6.png" alt="service 3">
-                                </div>
-                                <h3>Web Development</h3>
-                                <p>We are developing web applications from simple solutions to large scale projects.
-                                    For our solutions we are using industry's latest web technologies</p>
-                            </div>
-                        </div>
-                        <div class="span4 serviceDiv">
-                            <div class="centered service">
-                                <div class="circle-border_ zoom-in">
-                                    <img class="img-circle" src="images/service4.png" alt="service 1">
-                                </div>
-                                <h3>Search Engine Optimization</h3>
-                                <p>Always We starting the SEO process before creating a website, and then step by step,
-                                    we are optimizing the content on the website</p>
-                            </div>
-                        </div>
-
-
-                        <div class="span4 serviceDiv">
-                            <div class="centered service">
-                                <div class="circle-border_ zoom-in">
-                                    <img class="img-circle" src="images/service3.png" alt="service 3">
-                                </div>
-                                <h3>Mobile Application</h3>
-                                <p>In these days mobile applications are acting major role in technology world.
-                                    therefore for aiming the success of your business we are providing creative mobile
-                                    application solutions.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="span4 serviceDiv">
-                            <div class="centered service">
-                                <div class="circle-border_ zoom-in">
-                                    <img class="img-circle" src="images/service1.png" alt="service 1">
-                                </div>
-                                <h3>Social Bookmarking</h3>
-                                <p>We enables users to add, annotate, edit, and share bookmarks of web documents. </p>
-                            </div>
-                        </div>
-
-                        <div class="span4 serviceDiv">
-                            <div class="centered service">
-                                <div class="circle-border_ zoom-in">
-                                    <img class="img-circle" src="images/service5.png" alt="service 2" />
-                                </div>
-                                <h3>Branding & Logo Design</h3>
-                                <p>A logo is the thing that gives the first most impression about your whole business to the
-                                    customer. Keep that in mind, we are providing creative and beautiful Brandings & Logo Designs
-                                    for your business.</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
+
+                <br>
+
             </div>
-            <!-- Service section end -->
-            <!-- Portfolio section start -->
+        </div>
+        <!-- About us section end -->
+
+
+
+
+
+
+
+
+
+
+        <!-- Portfolio section start -->
             <div class="section secondary-section " id="portfolio">
                 <!--<div class="qqqqq" style="">-->
                 <div class="triangle"></div>
                 <div class="container">
                     <div class=" title">
-                        <h1>Here is Our Recent Works</h1>
-<!--                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>-->
+                        <h1>Have You Seen our Works?</h1>
+                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
                     </div>
                     <ul class="nav nav-pills">
                         <li class="filter" data-filter="all">
@@ -330,7 +219,6 @@
                             <a href="#noAction">Identity</a>
                         </li>
                     </ul>
-
                     <!-- Start details for portfolio project 1 -->
                     <div id="single-project">
                         <div id="slidingDiv" class="toggleDiv row-fluid single-project">
@@ -340,21 +228,22 @@
                             <div class="span6">
                                 <div class="project-description">
                                     <div class="project-title clearfix">
-                                        <h3>Website for Olinco Engineering</h3>
+                                        <h3>Webste for Some Client</h3>
                                         <span class="show_hide close">
                                             <i class="icon-cancel"></i>
                                         </span>
                                     </div>
                                     <div class="project-info">
-                                        <div><span>Client</span>Olinco Engineering</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span><a href="http://www.olincoengineering.com" target="_blank">www.olincoengineering.com</a></div>
+                                        <div>
+                                            <span>Client</span>Some Client Name</div>
+                                        <div>
+                                            <span>Date</span>July 2013</div>
+                                        <div>
+                                            <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <div>
+                                            <span>Link</span>http://examplecomp.com</div>
                                     </div>
-                                    <p>
-                                        Olinco Engineering is steel building construction contractor in Sri Lanka
-                                        through the quality and speedy constructions.
-                                    </p>
+                                    <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
                                 </div>
                             </div>
                         </div>
@@ -362,27 +251,27 @@
                         <!-- Start details for portfolio project 2 -->
                         <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-02.png" alt="project 2">
+                                <img src="images/Portfolio02.png" alt="project 2">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
                                     <div class="project-title clearfix">
-                                        <h3>Webste for Yala Tusker Safari</h3>
+                                        <h3>Webste for Some Client</h3>
                                         <span class="show_hide close">
                                             <i class="icon-cancel"></i>
                                         </span>
                                     </div>
                                     <div class="project-info">
-                                        <div><span>Client</span>Yala Tusker Safari</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span><a href="http://www.yalatuskersafari.com" target="_blank">www.yalatuskersafari.com</a></div>
+                                        <div>
+                                            <span>Client</span>Some Client Name</div>
+                                        <div>
+                                            <span>Date</span>July 2013</div>
+                                        <div>
+                                            <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <div>
+                                            <span>Link</span>http://examplecomp.com</div>
                                     </div>
-                                    <p>
-                                        Yala Tusker Safari, is a safari jeep service initiated with the intention of providing
-                                        tourists visiting down south of Sri Lanka an unforgettable experience in Yala, Bundala,
-                                        Udawalawa national parks
-                                    </p>
+                                    <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
                                 </div>
                             </div>
                         </div>
@@ -390,26 +279,27 @@
                         <!-- Start details for portfolio project 3 -->
                         <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-03.png" alt="project 3">
+                                <img src="images/Portfolio03.png" alt="project 3">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
                                     <div class="project-title clearfix">
-                                        <h3>Webste for MAS Consolidated</h3>
+                                        <h3>Webste for Some Client</h3>
                                         <span class="show_hide close">
                                             <i class="icon-cancel"></i>
                                         </span>
                                     </div>
                                     <div class="project-info">
-                                        <div><span>Client</span>MAS Consolidated</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span><a href="http://www.masconsolidated.com" target="_blank">www.masconsolidated.com</a></div>
+                                        <div>
+                                            <span>Client</span>Some Client Name</div>
+                                        <div>
+                                            <span>Date</span>July 2013</div>
+                                        <div>
+                                            <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <div>
+                                            <span>Link</span>http://examplecomp.com</div>
                                     </div>
-                                    <p>
-                                        MAS Consolidated exclusive agent in Colombo for ASIA FOWRADING - Maldives & CF Freight
-                                        India to secure all the traffic from Maldives to and India.
-                                    </p>
+                                    <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
                                 </div>
                             </div>
                         </div>
@@ -417,27 +307,27 @@
                         <!-- Start details for portfolio project 4 -->
                         <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-04.png" alt="project 4">
+                                <img src="images/Portfolio04.png" alt="project 4">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
                                     <div class="project-title clearfix">
-                                        <h3>Webste for Pinehill</h3>
+                                        <h3>Project for Some Client</h3>
                                         <span class="show_hide close">
                                             <i class="icon-cancel"></i>
                                         </span>
                                     </div>
                                     <div class="project-info">
-                                        <div><span>Client</span>Pinehill</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span><a href="http://www.pinehilltea.com" target="_blank">www.pinehilltea.com</a></div>
+                                        <div>
+                                            <span>Client</span>Some Client Name</div>
+                                        <div>
+                                            <span>Date</span>July 2013</div>
+                                        <div>
+                                            <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <div>
+                                            <span>Link</span>http://examplecomp.com</div>
                                     </div>
-                                    <p>
-                                        Pinehill tea factory has been producing Sri Lankan tea for over 30 years,
-                                        situated across the lush Sinharaja forest. The Pinehill tea factory specializes
-                                        in the production of Ceylon orthodox black tea.
-                                    </p>
+                                    <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
                                 </div>
                             </div>
                         </div>
@@ -445,23 +335,27 @@
                         <!-- Start details for portfolio project 5 -->
                         <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-05.png" alt="project 5">
+                                <img src="images/Portfolio05.png" alt="project 5">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
                                     <div class="project-title clearfix">
-                                        <h3>Webste for Lanka CCTV</h3>
+                                        <h3>Webste for Some Client</h3>
                                         <span class="show_hide close">
                                             <i class="icon-cancel"></i>
                                         </span>
                                     </div>
                                     <div class="project-info">
-                                        <div><span>Client</span>Lanka CCTV</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span><a href="http://www.lankacctv.biz" target="_blank">www.lankacctv.biz</a></div>
+                                        <div>
+                                            <span>Client</span>Some Client Name</div>
+                                        <div>
+                                            <span>Date</span>July 2013</div>
+                                        <div>
+                                            <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <div>
+                                            <span>Link</span>http://examplecomp.com</div>
                                     </div>
-                                    <p>Lanka CCTV is leading provider in CCTV cameras and Home security equipments.</p>
+                                    <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
                                 </div>
                             </div>
                         </div>
@@ -469,23 +363,27 @@
                         <!-- Start details for portfolio project 6 -->
                         <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-06.png" alt="project 6">
+                                <img src="images/Portfolio06.png" alt="project 6">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
                                     <div class="project-title clearfix">
-                                        <h3>Webste Luxuary Tours Sri Lanka</h3>
+                                        <h3>Webste for Some Client</h3>
                                         <span class="show_hide close">
                                             <i class="icon-cancel"></i>
                                         </span>
                                     </div>
                                     <div class="project-info">
-                                        <div><span>Client</span>Luxuary Tours Sri Lanka</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span>Under Construction</div>
+                                        <div>
+                                            <span>Client</span>Some Client Name</div>
+                                        <div>
+                                            <span>Date</span>July 2013</div>
+                                        <div>
+                                            <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <div>
+                                            <span>Link</span>http://examplecomp.com</div>
                                     </div>
-                                    <p></p>
+                                    <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
                                 </div>
                             </div>
                         </div>
@@ -493,23 +391,27 @@
                         <!-- Start details for portfolio project 7 -->
                         <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-08.png" alt="project 7">
+                                <img src="images/Portfolio07.png" alt="project 7">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
                                     <div class="project-title clearfix">
-                                        <h3>Logo for SteelFab</h3>
+                                        <h3>Webste for Some Client</h3>
                                         <span class="show_hide close">
                                             <i class="icon-cancel"></i>
                                         </span>
                                     </div>
                                     <div class="project-info">
-                                        <div><span>Client</span>SteelFab</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span>-</div>
+                                        <div>
+                                            <span>Client</span>Some Client Name</div>
+                                        <div>
+                                            <span>Date</span>July 2013</div>
+                                        <div>
+                                            <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <div>
+                                            <span>Link</span>http://examplecomp.com</div>
                                     </div>
-                                    <p></p>
+                                    <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
                                 </div>
                             </div>
                         </div>
@@ -517,119 +419,59 @@
                         <!-- Start details for portfolio project 8 -->
                         <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-07.png" alt="project 8">
+                                <img src="images/Portfolio08.png" alt="project 8">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
                                     <div class="project-title clearfix">
-                                        <h3>Webste for Creative Brands</h3>
+                                        <h3>Webste for Some Client</h3>
                                         <span class="show_hide close">
                                             <i class="icon-cancel"></i>
                                         </span>
                                     </div>
                                     <div class="project-info">
-                                        <div><span>Client</span>Creative Brands</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span><a href="http://www.creativebrands.lk" target="_blank">www.creativebrands.lk</a></div>
+                                        <div>
+                                            <span>Client</span>Some Client Name</div>
+                                        <div>
+                                            <span>Date</span>July 2013</div>
+                                        <div>
+                                            <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <div>
+                                            <span>Link</span>http://examplecomp.com</div>
                                     </div>
-                                    <p>
-                                        Creative Brands is a promotional & creative clothing manufacturing
-                                        company which established in 2014 aiming the blooming market of promotional
-                                        products for all occasions.
-                                    </p>
+                                    <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.</p>
                                 </div>
                             </div>
                         </div>
                         <!-- End details for portfolio project 8 -->
-
                         <!-- Start details for portfolio project 9 -->
                         <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-09.png" alt="project 9">
+                                <img src="images/Portfolio09.png" alt="project 9">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
                                     <div class="project-title clearfix">
-                                        <h3>Webste for Raklo</h3>
+                                        <h3>Webste for Some Client</h3>
                                         <span class="show_hide close">
                                             <i class="icon-cancel"></i>
                                         </span>
                                     </div>
                                     <div class="project-info">
-                                        <div><span>Client</span>Some Client Name</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span><a href="http://www.raklo.lk" target="_blank">www.raklo.lk</a></div>
+                                        <div>
+                                            <span>Client</span>Some Client Name</div>
+                                        <div>
+                                            <span>Date</span>July 2013</div>
+                                        <div>
+                                            <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <div>
+                                            <span>Link</span>http://examplecomp.com</div>
                                     </div>
-                                    <p>
-                                        Raklo doors and windows , that take you to inner depths in doors and
-                                        window designs, have a great finish.
-                                    </p>
+                                    <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
                                 </div>
                             </div>
                         </div>
                         <!-- End details for portfolio project 9 -->
-
-                        <!-- Start details for portfolio project 10 -->
-                        <div id="slidingDiv9" class="toggleDiv row-fluid single-project">
-                            <div class="span6">
-                                <img src="images/portfolio/po-10.png" alt="project 10">
-                            </div>
-                            <div class="span6">
-                                <div class="project-description">
-                                    <div class="project-title clearfix">
-                                        <h3>Webste for Speedee</h3>
-                                        <span class="show_hide close">
-                                            <i class="icon-cancel"></i>
-                                        </span>
-                                    </div>
-                                    <div class="project-info">
-                                        <div><span>Client</span>Speedee</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span><a href="http://www.speedee.lk" target="_blank">www.speedee.lk</a></div>
-                                    </div>
-                                    <p>
-                                        Speedee.lk is a speedy and accurate on time delivery service launched in
-                                        2015 from a targeted case study done on speedy deliveries as per our valued
-                                        customer segments and focus on maintaining a valued and happy blue chip
-                                        customer base in the near future.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End details for portfolio project 10 -->
-
-                        <!-- Start details for portfolio project 11 -->
-                        <div id="slidingDiv10" class="toggleDiv row-fluid single-project">
-                            <div class="span6">
-                                <img src="images/portfolio/po-11.png" alt="project 11">
-                            </div>
-                            <div class="span6">
-                                <div class="project-description">
-                                    <div class="project-title clearfix">
-                                        <h3>Webste for Vision Works</h3>
-                                        <span class="show_hide close">
-                                            <i class="icon-cancel"></i>
-                                        </span>
-                                    </div>
-                                    <div class="project-info">
-                                        <div><span>Client</span>Vision Works</div>
-<!--                                        <div><span>Date</span>July 2013</div>-->
-<!--                                        <div><span>Skills</span>HTML5, CSS3, JavaScript</div>-->
-                                        <div><span>Link</span><a href="http://www.visionworkslk.com" target="_blank">www.visionworkslk.com</a></div>
-                                    </div>
-                                    <p>
-                                        Vision Works was incorporated in 1995 as a Production unit
-                                        to facilitate the production of Advertising films, Documentaries
-                                        and any other content for Television or Theatres.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End details for portfolio project 11 -->
-
                         <ul id="portfolio-grid" class="thumbnails row">
                             <li class="span4 mix webdesign">
                                 <div class="thumbnail">
@@ -637,8 +479,8 @@
                                     <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Olinco Engineering</h3>
-                                    <p><a href="http://www.olincoengineering.com" class="gotowebsite" target="_blank">Go to Website</a></p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -648,8 +490,8 @@
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Yala Tusker Safari</h3>
-                                    <p><a href="http://www.yalatuskersafari.com" class="gotowebsite" target="_blank">Go to Website</a></p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -659,8 +501,8 @@
                                     <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>MAS Consolidated</h3>
-                                    <p><a href="http://www.masconsolidated.com" class="gotowebsite" target="_blank">Go to Website</a></p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -670,8 +512,8 @@
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Pinehill</h3>
-                                    <p><a href="http://www.pinehilltea.com" class="gotowebsite" target="_blank">Go to Website</a></p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -681,8 +523,8 @@
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Lanka CCTV</h3>
-                                    <p><a href="http://www.lankacctv.biz" class="gotowebsite" target="_blank">Go to Website</a></p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -692,8 +534,8 @@
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Luxuary Tours Sri Lanka</h3>
-                                    <p class="gotowebsite">Under Construction</p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -703,8 +545,8 @@
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Steel Fab</h3>
-                                    <p class="gotowebsite">Steel Fab Logo</p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -714,8 +556,8 @@
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Creative Brands</h3>
-                                    <p><a href="http://www.creativebrands.lk" class="gotowebsite" target="_blank">Go to Website</a></p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -725,8 +567,8 @@
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Raklo</h3>
-                                    <p><a href="http://www.raklo.lk" class="gotowebsite" target="_blank">Go to Website</a></p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -734,11 +576,11 @@
                             <li class="span4 mix webdevelopment">
                                 <div class="thumbnail">
                                     <img src="images/portfolio/po-10.png" alt="project 9">
-                                    <a href="#single-project" class="show_hide more" rel="#slidingDiv9">
+                                    <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Speedee</h3>
-                                    <p><a href="http://www.speedee.lk" class="gotowebsite" target="_blank">Go to Website</a></p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -746,11 +588,11 @@
                             <li class="span4 mix webdesgn">
                                 <div class="thumbnail">
                                     <img src="images/portfolio/po-11.png" alt="project 9">
-                                    <a href="#single-project" class="show_hide more" rel="#slidingDiv10">
+                                    <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
                                         <i class="icon-plus"></i>
                                     </a>
-                                    <h3>Vision Works</h3>
-                                    <p><a href="http://www.visionworkslk.com" class="gotowebsite" target="_blank">Go to Website</a></p>
+                                    <h3>Thumbnail label</h3>
+                                    <p>Thumbnail caption...</p>
                                     <div class="mask"></div>
                                 </div>
                             </li>
@@ -762,73 +604,6 @@
             <!-- Portfolio section end -->
 
 
-            <!-- About us section start -->
-            <div class="section primary-section" id="about">
-
-                <div class="container">
-
-                    <div class="title">
-                        <h1>About Us</h1>
-                        <p style="text-align: justify">Web Designers Sri Lanka is a locally based web design and development company. We specialize
-                            in creating websites that build company profiles, utilizing a range of online marketing strategies
-                            and web technologies. We provide extensive experience in search engine optimization and search engine
-                            marketing. We also specialize in website traffic analysis. We are keen advocates for mobile responsive
-                            web design, web accessibility best practice and cross browser compatibility in order to optimize the
-                            end user experience.
-                        </p>
-
-                        <h1>Our Mission</h1>
-                        <p style="text-align: justify">We aim to provide long-lasting strategies that build on your businesses
-                            bottom-line, reduce costs and maximize return on investment. The initial goal of any website design
-                            is to create a strong online presence that connects with your audience. We are helping our clients
-                            to realize value from online media. Our team will design, develop and execute our client's objectives
-                            by integrating web solutions, mobile applications. If you would like us to assist you in building a
-                            strong online presence for your business, please contact Web Designers Sri Lanka on <a href="tel:+94779190673" class="tp-small">&nbsp;&nbsp;077-9190673</a>&nbsp;&nbsp;or
-                            <a href="tel:+9476-6755645" class="tp-small">&nbsp;&nbsp;076-6755645</a>.
-                        </p>
-                    </div>
-
-
-
-
-                    <div class="title">
-                        <h1>Where Are We Located</h1>
-                        <p style="text-align:justify; ">We are a web Design & web Development
-                            Company with offices colombo and kandy in sri lanka.</p>
-                    </div>
-                    <div class="locations">
-                        <div class="row-fluid team">
-                            <div class="span4" id="first-place">
-                                <div class="thumbnail">
-                                    <img src="images/colombo.jpg" alt="team 1">
-                                    <h3>Colombo</h3>
-
-                                    <div class="mask">
-                                        <h2>Colombo</h2>
-                                        <p style="font-weight: bold;">Our Head Office is Located on Colombo <br>Call Us <a href="tel:+94779190673" style="color:#fff">&nbsp;&nbsp;077-9190673</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="span4" id="second-place">
-                                <div class="thumbnail">
-                                    <img src="images/kandy.jpg" alt="team 1">
-                                    <h3>Kandy</h3>
-
-                                    <div class="mask">
-                                        <h2>Kandy</h2>
-                                        <p style="font-weight: bold;">We also have Branch in kandy <br>Call Us <a href="tel:+94766755645" style="color:#fff">&nbsp;&nbsp;076-6755645</a></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <br>
-
-                </div>
-            </div>
-            <!-- About us section end -->
 
             <div class="section third-section" id="clients">
                 <div class="triangle"></div>
@@ -904,7 +679,7 @@
                 <div class="container">
                     <div class="title">
                         <h1>Price</h1>
-                        <p style="text-align: justify;">Our Web Design Packages Starting at Rs <strong>20,000</strong>.
+                        <p style="text-align: justify;">Our Web Design Packages Starting at Rs 20,000 .
                             A great conversion-based web design is very powerful
                             and will greatly help you rank and grow your business,
                             which is why customers are constantly approaching our
@@ -1003,7 +778,7 @@
                             We are passionate online business builders who specialize in quality design, web development,
                             Mobile app development, online marketing and online publishing. Please view some examples of
                             our most recent projects. If you are looking for quality professional website services or if
-                            you have a question about our website design services, please give us a Call on <a href="tel:+94779190673" class="tp-small">&nbsp;&nbsp;077-9190673</a>&nbsp;&nbspor
+                            you have a question about our website design services, please give us a Call on <a href="tel:+94779190673" class="tp-small">&nbsp;&nbsp;077-9190673</a> or
                             <a href="tel:+9476-6755645" class="tp-small">&nbsp;&nbsp;076-6755645</a>
                         </p>
                     </div>
@@ -1186,7 +961,6 @@
 
         <!-- Include javascript -->
         <script src="js/jquery.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
         <script type="text/javascript" src="js/jquery.mixitup.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
