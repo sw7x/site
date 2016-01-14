@@ -9,30 +9,9 @@
 
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 
-        <!-- Load css styles -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
 
-        <link rel="stylesheet" type="text/css" href="css/theme.css" />
-
-        <!--[if IE 7]>
-        <link rel="stylesheet" type="text/css" href="css/ie7.css"/>
-        <![endif]-->
-
-        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
-        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
-        <link rel="stylesheet" type="text/css" href="css/animate.css" />
-
-
-        <link rel="stylesheet" href="css/preloader.css">
+        <link rel="stylesheet" type="text/css" href="build/style.css" />
         <script src="js/modernizr-2.6.2.min.js"></script>
-
-
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
-
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-
         <link rel="shortcut icon" href="images/favicon.ico">
     </head>
     
@@ -1212,31 +1191,16 @@
         <script src="js/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
 
+        <script type="text/javascript" src="build/script.js"></script>
 
-        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script>
-        <script type="text/javascript" src="js/modernizr.custom.js"></script>
-        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
-        <script type="text/javascript" src="js/jquery.cslider.js"></script>
-        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-        <script type="text/javascript" src="js/jquery.inview.js"></script>
 
         <!-- Load google maps api and call initializeMap function defined in app.js -->
         <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
-
-        <!-- css3-mediaqueries.js for IE8 or older -->
-        <!--[if lt IE 9]>
-            <script src="js/respond.min.js"></script>
-        <![endif]-->
-
-        <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
 
         <script type="text/javascript" src="js/app.js"></script>
         <script src="js/preloader.js"></script>
 
 
-        <script type="text/javascript" charset="utf-8">
 
-        </script>
 
     </body

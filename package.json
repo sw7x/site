@@ -1,0 +1,17 @@
+{
+  "name": "pluton",
+  "version": "1.0.0",
+  "description": "ass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sw",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1"
+  }
+}
