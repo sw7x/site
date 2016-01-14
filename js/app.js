@@ -356,6 +356,7 @@ $("#send-mail").click(function () {
 
     //Function for show or hide portfolio desctiption.
     $.fn.showHide = function (options) {
+
         var defaults = {
             speed: 1000,
             easing: '',
@@ -364,7 +365,8 @@ $("#send-mail").click(function () {
             hideText: 'Hide'
         };
         var options = $.extend(defaults, options);
-        $(this).click(function () {
+        $(this).click(function ()
+        {
             $('.toggleDiv').slideUp(options.speed, options.easing);
             var toggleClick = $(this);
             var toggleDiv = $(this).attr('rel');
@@ -373,6 +375,7 @@ $("#send-mail").click(function () {
                     $(toggleDiv).is(":visible") ? toggleClick.text(options.hideText) : toggleClick.text(options.showText);
                 }
             });
+
             return false;
         });
     };
@@ -606,9 +609,11 @@ function initializeMap() {
 }
 //google.maps.event.addDomListener(window, 'load', initialize);
 
-//
-//$('document').ready(function()
-//{
-//    $( ".map-canvas" ).prepend( '<p>---------------Test-----------</p>' );
-//
-//});
+$(function()
+{
+    $("img.lazy").lazyload(
+    {
+        effect : "fadeIn",
+        //event : "click"
+    });
+});

@@ -725,7 +725,12 @@ p {
     margin:0 auto;
     text-align:center;
 }
-.price-column:hover{    box-shadow: 0px 0px 30px rgba(21, 195, 222, 0.65);}
+.price-column:hover{
+   // box-shadow: 0px 0px 50px #fff;
+    /*-webkit-box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.85);*/
+    /*-moz-box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.85);*/
+    /*box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.85);*/
+}
  .price-column h3 {
      background-color: #fff;
     text-transform: uppercase;
@@ -1378,7 +1383,7 @@ p {
     -moz-border-radius: 50px;
     border-radius: 50px;
     margin-right: 10px;
-    color: rgb(6, 59, 128) !important;
+    color: rgb(3, 120, 170) !important;
     background-color: #fff
 }
 
@@ -1703,18 +1708,21 @@ ul.top-soc-small li a.soc-skype:hover{color:#fff;background-color: #00AFF0;}
 @media (min-width: 1200px)
 {
 .service{height:350px;}
+    .price-column:hover{margin-top: -20px;}
 }
 
 @media (min-width: 980px) and (max-width: 1199px)
 {
 
     .service{height:400px;}
+    .price-column:hover{margin-top: -20px;}
 }
 
 @media (min-width: 768px) and (max-width: 979px)
 {
 
     .service{height:500px;}
+    .price-column:hover{margin-top: -20px;}
 }
 
 @media (max-width: 1200px)

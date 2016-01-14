@@ -4,7 +4,7 @@
     <head>
         <meta charset=utf-8>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Webdesignersrilnak.lk</title>
+        <title>Web Designers Sri Lanka</title>
 
 
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
@@ -179,7 +179,9 @@
                                 <p><?php echo $paragraph[$i];?></p>
 <!--                                <a href="#" class="da-link button">Read more</a>-->
                                 <div class="da-img">
-                                    <img src="images/slider/<?php echo $imgNo[$i];?>.png" alt="image01" width="480">
+
+<!--                                    <img src="images/slider/z--><?php //echo $imgNo[$i];?><!--.png" alt="image01" width="480">-->
+
                                 </div>
                             </div>
                             <?php
@@ -335,7 +337,8 @@
                     <div id="single-project">
                         <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-01.png" alt="project 1" />
+<!--                                <img src="images/portfolio/_po-01.png" alt="project 1" />-->
+                                <img class="lazy" data-original="images/portfolio/po-01.png" alt="project 1">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -362,7 +365,8 @@
                         <!-- Start details for portfolio project 2 -->
                         <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-02.png" alt="project 2">
+<!--                                <img src="images/portfolio/_po-02.png" alt="project 2">-->
+                                <img class="lazy" data-original="images/portfolio/po-02.png" alt="project 2">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -390,7 +394,8 @@
                         <!-- Start details for portfolio project 3 -->
                         <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-03.png" alt="project 3">
+<!--                                <img src="images/portfolio/_po-03.png" alt="project 3">-->
+                                <img class="lazy" data-original="images/portfolio/po-03.png" alt="project 3">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -417,7 +422,8 @@
                         <!-- Start details for portfolio project 4 -->
                         <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-04.png" alt="project 4">
+<!--                                <img src="images/portfolio/_po-04.png" alt="project 4">-->
+                                <img class="lazy" data-original="images/portfolio/po-04.png" alt="project 4">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -445,7 +451,8 @@
                         <!-- Start details for portfolio project 5 -->
                         <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-05.png" alt="project 5">
+<!--                                <img src="images/portfolio/_po-05.png" alt="project 5">-->
+                                <img class="lazy" data-original="images/portfolio/po-05.png" alt="project 5">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -469,7 +476,8 @@
                         <!-- Start details for portfolio project 6 -->
                         <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-06.png" alt="project 6">
+<!--                                <img src="images/portfolio/_po-06.png" alt="project 6">-->
+                                <img class="lazy" data-original="images/portfolio/po-06.png" alt="project 6">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -493,7 +501,8 @@
                         <!-- Start details for portfolio project 7 -->
                         <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-08.png" alt="project 7">
+<!--                                <img src="images/portfolio/_po-08.png" alt="project 7">-->
+                                <img class="lazy" data-original="images/portfolio/po-08.png" alt="project 7">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -517,7 +526,8 @@
                         <!-- Start details for portfolio project 8 -->
                         <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-07.png" alt="project 8">
+                                <img src="images/portfolio/_po-07.png" alt="project 8">
+                                <img class="lazy" data-original="images/portfolio/po-07.png" alt="project 8">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -546,7 +556,8 @@
                         <!-- Start details for portfolio project 9 -->
                         <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-09.png" alt="project 9">
+<!--                                <img src="images/portfolio/_po-09.png" alt="project 9">-->
+                                <img class="lazy" data-original="images/portfolio/po-09.png" alt="project 9">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -574,7 +585,8 @@
                         <!-- Start details for portfolio project 10 -->
                         <div id="slidingDiv9" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-10.png" alt="project 10">
+<!--                                <img src="images/portfolio/_po-10.png" alt="project 10">-->
+                                <img class="lazy" data-original="images/portfolio/po-10.png" alt="project 10">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -604,7 +616,8 @@
                         <!-- Start details for portfolio project 11 -->
                         <div id="slidingDiv10" class="toggleDiv row-fluid single-project">
                             <div class="span6">
-                                <img src="images/portfolio/po-11.png" alt="project 11">
+<!--                                <img src="images/portfolio/_po-11.png" alt="project 11">-->
+                                <img class="lazy" data-original="images/portfolio/po-11.png" alt="project 11">
                             </div>
                             <div class="span6">
                                 <div class="project-description">
@@ -633,7 +646,8 @@
                         <ul id="portfolio-grid" class="thumbnails row">
                             <li class="span4 mix webdesign">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-01.png" alt="project 1">
+<!--                                    <img src="images/portfolio/po-01.png" alt="project 1">-->
+                                    <img class="lazy" data-original="images/portfolio/po-01.png" alt="project 1">
                                     <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -644,7 +658,8 @@
                             </li>
                             <li class="span4 mix webdesign">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-02.png" alt="project 2">
+<!--                                    <img src="images/portfolio/po-02.png" alt="project 2">-->
+                                    <img class="lazy" data-original="images/portfolio/po-02.png" alt="project 2">
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -655,7 +670,8 @@
                             </li>
                             <li class="span4 mix webdesign">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-03.png" alt="project 3">
+<!--                                    <img src="images/portfolio/po-03.png" alt="project 3">-->
+                                    <img class="lazy" data-original="images/portfolio/po-03.png" alt="project 3">
                                     <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -666,7 +682,8 @@
                             </li>
                             <li class="span4 mix webdesign">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-04.png" alt="project 4">
+<!--                                    <img src="images/portfolio/po-04.png" alt="project 4">-->
+                                    <img class="lazy" data-original="images/portfolio/po-04.png" alt="project 4">
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -677,7 +694,8 @@
                             </li>
                             <li class="span4 mix webdevelopment">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-05.png" alt="project 5">
+<!--                                    <img src="images/portfolio/po-05.png" alt="project 5">-->
+                                    <img class="lazy" data-original="images/portfolio/po-05.png" alt="project 5">
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -688,7 +706,8 @@
                             </li>
                             <li class="span4 mix webdesign">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-06.png" alt="project 6">
+<!--                                    <img src="images/portfolio/po-06.png" alt="project 6">-->
+                                    <img class="lazy" data-original="images/portfolio/po-06.png" alt="project 6">
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -699,7 +718,8 @@
                             </li>
                             <li class="span4 mix identity">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-08.png" alt="project 7" />
+<!--                                    <img src="images/portfolio/po-08.png" alt="project 7" />-->
+                                    <img class="lazy" data-original="images/portfolio/po-07.png" alt="project 7">
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -710,7 +730,8 @@
                             </li>
                             <li class="span4 mix webdevelopment">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-07.png" alt="project 8">
+<!--                                    <img src="images/portfolio/po-07.png" alt="project 8">-->
+                                    <img class="lazy" data-original="images/portfolio/po-08.png" alt="project 8">
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -721,7 +742,8 @@
                             </li>
                             <li class="span4 mix webdesign">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-09.png" alt="project 9">
+<!--                                    <img src="images/portfolio/po-09.png" alt="project 9">-->
+                                    <img class="lazy" data-original="images/portfolio/po-09.png" alt="project 9">
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -733,7 +755,8 @@
 
                             <li class="span4 mix webdevelopment">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-10.png" alt="project 9">
+<!--                                    <img src="images/portfolio/po-10.png" alt="project 9">-->
+                                    <img class="lazy" data-original="images/portfolio/po-10.png" alt="project 10">
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv9">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -745,7 +768,8 @@
 
                             <li class="span4 mix webdesgn">
                                 <div class="thumbnail">
-                                    <img src="images/portfolio/po-11.png" alt="project 9">
+<!--                                    <img src="images/portfolio/po-11.png" alt="project 9">-->
+                                    <img class="lazy" data-original="images/portfolio/po-11.png" alt="project 11">
                                     <a href="#single-project" class="show_hide more" rel="#slidingDiv10">
                                         <i class="icon-plus"></i>
                                     </a>
@@ -800,7 +824,7 @@
                         <div class="row-fluid team">
                             <div class="span4" id="first-place">
                                 <div class="thumbnail">
-                                    <img src="images/colombo.jpg" alt="team 1">
+                                    <img class="lazy" data-original="images/colombo.jpg" alt="team 1">
                                     <h3>Colombo</h3>
 
                                     <div class="mask">
@@ -811,7 +835,7 @@
                             </div>
                             <div class="span4" id="second-place">
                                 <div class="thumbnail">
-                                    <img src="images/kandy.jpg" alt="team 1">
+                                    <img class="lazy" data-original="images/kandy.jpg" alt="team 2">
                                     <h3>Kandy</h3>
 
                                     <div class="mask">
@@ -1186,7 +1210,9 @@
 
         <!-- Include javascript -->
         <script src="js/jquery.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.js"></script>
+
+
         <script type="text/javascript" src="js/jquery.mixitup.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -1209,5 +1235,8 @@
         <script src="js/preloader.js"></script>
 
 
-    </body>
-</html>
+        <script type="text/javascript" charset="utf-8">
+
+        </script>
+
+    </body
